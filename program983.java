@@ -1,0 +1,27 @@
+class ParkingTicket
+{
+    public int ticketnumber;
+    public String vehicleNumber;
+    public int floorNumber;
+    public int spotNumber;
+    public String entryTime;
+
+    public ParkingTicket (int a, String b, int c, int d, String e)
+    {
+        this.ticketnumber = a;
+        this.vehicleNumber = b;
+        this.floorNumber = c;
+        this.spotNumber = d;
+        this.entryTime = e;
+    }
+
+}
+
+
+ class program983 {
+    public static void main(String[] args) {
+        ParkingTicket p1 = new ParkingTicket(11,"MH12VL7172" , 3, 89, "9:30AM");
+        ParkingTicket p2 = new ParkingTicket(12,"MH14VL7020" , 4, 32, "9:50AM");
+    
+    }
+}
